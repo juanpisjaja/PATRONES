@@ -3,7 +3,7 @@
 ## ***Que es?***
 > **singleton se le denomina a un patron de diseño que le permite crear un sola instancia de una clase. Aparte de esto tiene muchos beneficios, algunos de ellos son:** 
 
-[texto img](https://refactoring.guru/images/patterns/content/singleton/singleton-comic-1-es.png?id=cc859f28938dcdbd30d5149a9d916060)
+![Image text](https://refactoring.guru/images/patterns/content/singleton/singleton-comic-1-es.png?id=cc859f28938dcdbd30d5149a9d916060)
 
 1. Para limitar el acceso simultáneo a un recurso compartido.
 2. Para crear un punto de acceso global para un recurso.
@@ -23,7 +23,7 @@
 ## ***Que es?***
 > **Proxy es un patrón de diseño estructural que proporciona un objeto que actúa como sustituto de un objeto de servicio real utilizado por un cliente. Un proxy recibe solicitudes del cliente, realiza parte del trabajo (control de acceso, almacenamiento en caché, etc.)**
 
-[texto img](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_rXiavL7z9jP_5QEcExG4kBSfWMhxxvGfxt3Az3jgxehSIpvt3NHSaqFTt6j_3HaIhMc&usqp=CAU)
+![Image text](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_rXiavL7z9jP_5QEcExG4kBSfWMhxxvGfxt3Az3jgxehSIpvt3NHSaqFTt6j_3HaIhMc&usqp=CAU)
 
 >Aunque el patrón Proxy no es un invitado habitual en la mayoría de aplicaciones Python, resulta de mucha utilidad en algunos casos especiales. Es insustituible cuando queremos añadir algunos comportamientos adicionales a un objeto de una clase existente sin cambiar el código cliente.
 
@@ -38,7 +38,7 @@
 
 * Se recomienda encarecidamente utilizar el método Prototype cuando la creación del objeto es una tarea costosa en términos de tiempo y uso de recursos y ya existe un objeto similar.
 
-[texto img](https://python2017.files.wordpress.com/2017/08/problema.png)
+![Image text](https://python2017.files.wordpress.com/2017/08/problema.png)
 
 ### Ventajas 
 1. Menor número de subclases.
@@ -56,7 +56,7 @@
 
 * El patrón Observer permite que el objeto editor de texto notifique a otros objetos de servicio sobre los cambios en su estado.
 
-[texto img](https://stackabuse.s3.amazonaws.com/media/observer-design-pattern-in-python-01.jpg)
+![Image text](https://stackabuse.s3.amazonaws.com/media/observer-design-pattern-in-python-01.jpg)
 
 ### Pros y Contras 
 1. Principio abierto/cerrado . Puede introducir nuevas clases de suscriptores sin tener que cambiar el código del editor (y viceversa si hay una interfaz de editor).
@@ -73,7 +73,7 @@
 
 > Esta arquitectura nos dicta como se estructura cada uno de los componentes de nuestro software, las responsabilidades de cada uno y las relaciones entre ellos.
 
-[texto img](https://i.stack.imgur.com/JFN82.png)
+![Image text](https://i.stack.imgur.com/JFN82.png)
 
 * Funcional porque cada bloque de código se ubicará dentro del componente según su función o rol. Es decir, mas claramente no podrás mezclar el código de la parte visual (estilos, colores, fuentes, imágenes) con la parte de los datos (código de lenguaje SQL) ni con la parte lógica que controla la interacción entre estos otros dos componentes (Por ejemplo la función que muestra un archivo según se visite una url). 
 
@@ -93,7 +93,7 @@
 
 * Utiliza el patrón cuando el acceso directo a los campos, consultores o modificadores del objeto viole su encapsulación.
 
-[texto img](https://refactoring.guru/images/patterns/cards/memento-mini-3x.png)
+![Image text](https://refactoring.guru/images/patterns/cards/memento-mini-3x.png)
 
 ### Pros y Contras 
 1. +Puedes producir instantáneas del estado del objeto sin violar su encapsulación.
@@ -121,7 +121,7 @@ class Computadora:
     def __init__(self):
        self.monitor= Monitor() # <-- dependency
 
-[texto img](https://desarrolloweb.com/articulos/images/poo/figura2-id.jpg)
+![Image text](https://desarrolloweb.com/articulos/images/poo/figura2-id.jpg)
 
 # ejemplo funcional
 [ejemplo funcional]()
@@ -142,7 +142,7 @@ class Computadora:
 2. Proceso costoso: no es barato establecer el método Facade en nuestra aplicación para la confiabilidad del sistema.
 3. Violación de las reglas: siempre existe el temor de violar la construcción de la capa de fachada.
 
-[texto img](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsiRVaUTddiFGGx2MJ0KvmONTszr5vqzdo9Q&usqp=CAU)
+![Image text](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsiRVaUTddiFGGx2MJ0KvmONTszr5vqzdo9Q&usqp=CAU)
 
 # ejemplo funcional
 [ejemplo funcional]()
@@ -153,7 +153,7 @@ class Computadora:
 ## ***Que es?***
 >**Abstract Factory es un patrón de diseño creacional que resuelve el problema de crear familias completas de productos sin especificar sus clases concretas.**
 
-[texto img](https://refactoring.guru/images/patterns/content/abstract-factory/abstract-factory-es.png?id=0378c9faca39afa20e41a4d37e7e3828)
+![Image text](https://refactoring.guru/images/patterns/content/abstract-factory/abstract-factory-es.png?id=0378c9faca39afa20e41a4d37e7e3828)
 
 ### Inplementacion
 1. Trace una matriz de distintos tipos de productos frente a las variantes de estos productos.
@@ -175,7 +175,7 @@ class Computadora:
 2. El patrón Factory Method separa el código de construcción de producto del código que hace uso del producto. Por ello, es más fácil extender el código de construcción de producto de forma independiente al resto del código.
 3. Por ejemplo, para añadir un nuevo tipo de producto a la aplicación, sólo tendrás que crear una nueva subclase creadora y sobrescribir el Factory Method que contiene.
 
-[texto img](https://media.geeksforgeeks.org/wp-content/uploads/20200116152733/solution_factory-_diagram.png)
+![Image text](https://media.geeksforgeeks.org/wp-content/uploads/20200116152733/solution_factory-_diagram.png)
 
 ### Pros  y Contras 
 1. +Evitas un acoplamiento fuerte entre el creador y los productos concretos.
@@ -199,7 +199,7 @@ class Computadora:
 * Conciencia entre los clientes.
 * Aumenta la complejidad.
 
-[texto img](https://empresas.blogthinkbig.com/wp-content/uploads/2020/04/image-8.png?resize=552%2C260)
+![Image text](https://empresas.blogthinkbig.com/wp-content/uploads/2020/04/image-8.png?resize=552%2C260)
 
 ### Aplicabilidad
 1. Muchas clases similares: este método es muy preferido cuando tenemos muchas clases similares que difieren en la forma en que se ejecutan.
@@ -223,7 +223,7 @@ class Computadora:
     * Decoradores no que preservan la firma
     * Decoradores que sí la preservan
 
-[texto img](https://recursospython.com/wp-content/uploads/2018/06/decoradores-python.png)
+![Image text](https://recursospython.com/wp-content/uploads/2018/06/decoradores-python.png)
 
 * _Ejemplo de manera larga_ 
 def forat_negre(f):
@@ -249,7 +249,7 @@ def forat_negre(f):
 ### Solución
 >Dado lo anterior, el patrón DAO propone separar por completo la lógica de negocio de la lógica para acceder a los datos, de esta forma, el DAO proporcionará los métodos necesarios para insertar, actualizar, borrar y consultar la información.
 
-[texto img](https://i.ytimg.com/vi/VVbTSkzhtA8/maxresdefault.jpg)
+![Image text](https://i.ytimg.com/vi/VVbTSkzhtA8/maxresdefault.jpg)
 
 # ejemplo funcional
 [ejemplo funcional]()
@@ -268,7 +268,7 @@ def forat_negre(f):
 2. Principio de abierto/cerrado. Puedes introducir nuevos comandos en la aplicación sin descomponer el código cliente existente.
 3. El código puede complicarse, ya que estás introduciendo una nueva capa entre emisores y receptores.
 
-[texto img](https://www.wikihow.com/images_en/thumb/8/80/Use-Windows-Command-Prompt-to-Run-a-Python-File-Step-10.jpg/v4-460px-Use-Windows-Command-Prompt-to-Run-a-Python-File-Step-10.jpg.webp)
+![Image text](https://www.wikihow.com/images_en/thumb/8/80/Use-Windows-Command-Prompt-to-Run-a-Python-File-Step-10.jpg/v4-460px-Use-Windows-Command-Prompt-to-Run-a-Python-File-Step-10.jpg.webp)
 
 # ejemplo funcional
 [ejemplo funcional]()

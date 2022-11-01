@@ -15,7 +15,7 @@
 2. Crear un método de creación estático que actúe como constructor. Tras bambalinas, este método invoca al constructor privado para crear un objeto y lo guarda en un campo estático. Las siguientes llamadas a este método devuelven el objeto almacenado en caché.
 
 # ejemplo funcional
-[ejemplo funcional]()
+![ejemplo funcional](https://github.com/juanpisjaja/PATRONES/blob/main/img/singleton.png)
 ***
 
 # PYTHON PROXY

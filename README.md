@@ -1,7 +1,7 @@
 # PYTHON SINGLETON
 
 ## ***Que es?***
-> **singleton se le denomina a un patron de diseño que le permite crear un sola instancia de una clase. Aparte de esto tiene muchos beneficios, algunos de ellos son:** 
+> **Singleton se le denomina a un patron de diseño que le permite crear un sola instancia de una clase. Aparte de esto tiene muchos beneficios, algunos de ellos son:** 
 
 ![Image text](https://refactoring.guru/images/patterns/content/singleton/singleton-comic-1-es.png?id=cc859f28938dcdbd30d5149a9d916060)
 
@@ -14,7 +14,7 @@
 1. Hacer privado el constructor por defecto para evitar que otros objetos utilicen el operador new con la clase Singleton.
 2. Crear un método de creación estático que actúe como constructor. Tras bambalinas, este método invoca al constructor privado para crear un objeto y lo guarda en un campo estático. Las siguientes llamadas a este método devuelven el objeto almacenado en caché.
 
-# ejemplo funcional
+# Ejemplo funcional
 ![ejemplo funcional](https://github.com/juanpisjaja/PATRONES/blob/main/img/singleton.png)
 ***
 
@@ -27,8 +27,8 @@
 
 >Aunque el patrón Proxy no es un invitado habitual en la mayoría de aplicaciones Python, resulta de mucha utilidad en algunos casos especiales. Es insustituible cuando queremos añadir algunos comportamientos adicionales a un objeto de una clase existente sin cambiar el código cliente.
 
-# ejemplo funcional
-![ejemplo funcional](https://github.com/juanpisjaja/PATRONES/blob/main/img/singleton.png)
+# Ejemplo funcional
+![ejemplo funcional]([https://github.com/juanpisjaja/PATRONES/blob/main/img/singleton.png](https://github.com/juanpisjaja/PATRONES/blob/main/img/proxy.png)
 ***
 
 # PYTHON PROTOTIPO
@@ -45,8 +45,8 @@
 2. Proporciona valores variables a nuevos objetos.
 3. Proporciona una estructura variable a nuevos objetos.
 
-# ejemplo funcional
-[ejemplo funcional]()
+# Ejemplo funcional
+![ejemplo funcional](https://github.com/juanpisjaja/PATRONES/blob/main/img/prototipo.png)
 ***
 
 # PYTHON OBSERVADOR
@@ -63,7 +63,7 @@
 2. Puede establecer relaciones entre objetos en tiempo de ejecución.
 
 # ejemplo funcional
-[ejemplo funcional]()
+![ejemplo funcional](https://github.com/juanpisjaja/PATRONES/blob/main/img/observador.png)
 ***
 
 # PYTHON MVC
@@ -77,8 +77,8 @@
 
 * Funcional porque cada bloque de código se ubicará dentro del componente según su función o rol. Es decir, mas claramente no podrás mezclar el código de la parte visual (estilos, colores, fuentes, imágenes) con la parte de los datos (código de lenguaje SQL) ni con la parte lógica que controla la interacción entre estos otros dos componentes (Por ejemplo la función que muestra un archivo según se visite una url). 
 
-# ejemplo funcional
-[ejemplo funcional]()
+# Ejemplo funcional
+![ejemplo funcional](https://github.com/juanpisjaja/PATRONES/blob/main/img/mvc.png)
 ***
 
 # PYTHON MEMENTO
@@ -101,14 +101,14 @@
 3. +Puedes simplificar el código de la originadora permitiendo que la cuidadora mantenga el historial del estado de la originadora.
 4. -Las cuidadoras deben rastrear el ciclo de vida de la originadora para poder destruir mementos obsoletos.
 
-# ejemplo funcional
-[ejemplo funcional]()
+# Ejemplo funcional
+![ejemplo funcional](https://github.com/juanpisjaja/PATRONES/blob/main/img/memento.png)
 ***
 
 # PYTHON INYECCION DE DEPENDENCIAS 
 
 ## ***Que es?***
->**la inyección de dependencia es un técnica de desarrollo que nos permite escribir código con un alto nivel de cohesión y un bajo nivel de dependencia.**
+>**La inyección de dependencia es un técnica de desarrollo que nos permite escribir código con un alto nivel de cohesión y un bajo nivel de dependencia.**
 
 * Para comprender el tema de inyección de dependencias es ver a las dependencias cómo si de piezas de lego se tratasen. Pudiendo reemplazarla unas por otras dependiendo de nuestras necesidades.
 
@@ -123,8 +123,8 @@ class Computadora:
 
 ![Image text](https://desarrolloweb.com/articulos/images/poo/figura2-id.jpg)
 
-# ejemplo funcional
-[ejemplo funcional]()
+# Ejemplo funcional
+![ejemplo funcional](https://github.com/juanpisjaja/PATRONES/blob/main/img/inyeccion%20de%20dependencia%20.png)
 ***
 
 # PYTHON FACHADA 
@@ -144,8 +144,8 @@ class Computadora:
 
 ![Image text](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsiRVaUTddiFGGx2MJ0KvmONTszr5vqzdo9Q&usqp=CAU)
 
-# ejemplo funcional
-[ejemplo funcional]()
+# Ejemplo funcional
+![ejemplo funcional](https://github.com/juanpisjaja/PATRONES/blob/main/img/fachada.png)
 ***
 
 # PYTHON FABRICA ABSTRACTA 
@@ -161,8 +161,8 @@ class Computadora:
 3. Declare la interfaz de fábrica abstracta con un conjunto de métodos de creación para todos los productos abstractos.
 4. Implemente un conjunto de clases de fábrica concretas, una para cada variante de producto
 
-# ejemplo funcional
-[ejemplo funcional]()
+# Ejemplo funcional
+![ejemplo funcional](https://github.com/juanpisjaja/PATRONES/blob/main/img/fabracia%20abstracta.png)
 ***
 
 # PYTHON FABRICA 
@@ -182,8 +182,8 @@ class Computadora:
 2. +Principio de responsabilidad única. Puedes mover el código de creación de producto a un lugar del programa, haciendo que el código sea más fácil de mantener.
 3. -Puede ser que el código se complique, ya que debes incorporar una multitud de nuevas subclases para implementar el patrón. La situación ideal sería introducir el patrón en una jerarquía existente de clases creadoras.
 
-# ejemplo funcional
-[ejemplo funcional]()
+# Ejemplo funcional
+![ejemplo funcional](https://github.com/juanpisjaja/PATRONES/blob/main/img/fabrica.png)
 ***
 
 # PYTHON ESTRATEGIA 
@@ -205,8 +205,8 @@ class Computadora:
 1. Muchas clases similares: este método es muy preferido cuando tenemos muchas clases similares que difieren en la forma en que se ejecutan.
 2. Conquistar el aislamiento: generalmente se usa para aislar la lógica de negocios de la clase de la implementación algorítmica.
 
-# ejemplo funcional
-[ejemplo funcional]()
+# Ejemplo funcional
+![ejemplo funcional](https://github.com/juanpisjaja/PATRONES/blob/main/img/estrategia.png)
 ***
 
 # PYTHON DECORADOR 
@@ -234,14 +234,14 @@ def forat_negre(f):
     none.__name__= f.__name__
     return none
 
-# ejemplo funcional
-[ejemplo funcional]()
+# Ejemplo funcional
+![ejemplo funcional](https://github.com/juanpisjaja/PATRONES/blob/main/img/decorador.png)
 ***
 
 # PYTHON DAO
 
 ## ***Que es?***
->**el patrón Arquitectónico Data Access Object (DAO), el cual permite separar la lógica de acceso a datos de los Objetos de negocios (Bussines Objects), de tal forma que el DAO encapsula toda la lógica de acceso de datos al resto de la aplicación.**
+>**El patrón Arquitectónico Data Access Object (DAO), el cual permite separar la lógica de acceso a datos de los Objetos de negocios (Bussines Objects), de tal forma que el DAO encapsula toda la lógica de acceso de datos al resto de la aplicación.**
 
 ### Problemática
 >Una de las grandes problemáticas al momento de acceder a los datos, es que la implementación y formato de la información puede variar según la fuente de los datos. 
@@ -251,11 +251,11 @@ def forat_negre(f):
 
 ![Image text](https://i.ytimg.com/vi/VVbTSkzhtA8/maxresdefault.jpg)
 
-# ejemplo funcional
-[ejemplo funcional]()
+# Ejemplo funcional
+![ejemplo funcional](https://github.com/juanpisjaja/PATRONES/blob/main/img/DAO.png)
 ***
 
-# PYTHON DAO
+# PYTHON COMMAND
 
 ## ***Que es?***
 >**Command es un patrón de diseño de comportamiento que convierte una solicitud en un objeto independiente que contiene toda la información sobre la solicitud. Esta transformación te permite parametrizar los métodos con diferentes solicitudes, retrasar o poner en cola la ejecución de una solicitud y soportar operaciones que no se pueden realizar.**
@@ -271,7 +271,7 @@ def forat_negre(f):
 ![Image text](https://www.wikihow.com/images_en/thumb/8/80/Use-Windows-Command-Prompt-to-Run-a-Python-File-Step-10.jpg/v4-460px-Use-Windows-Command-Prompt-to-Run-a-Python-File-Step-10.jpg.webp)
 
 # ejemplo funcional
-[ejemplo funcional]()
+![ejemplo funcional](https://github.com/juanpisjaja/PATRONES/blob/main/img/command.png)
 ***
 
 

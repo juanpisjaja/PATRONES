@@ -28,7 +28,7 @@
 >Aunque el patrón Proxy no es un invitado habitual en la mayoría de aplicaciones Python, resulta de mucha utilidad en algunos casos especiales. Es insustituible cuando queremos añadir algunos comportamientos adicionales a un objeto de una clase existente sin cambiar el código cliente.
 
 # ejemplo funcional
-[ejemplo funcional]()
+![ejemplo funcional](https://github.com/juanpisjaja/PATRONES/blob/main/img/singleton.png)
 ***
 
 # PYTHON PROTOTIPO
